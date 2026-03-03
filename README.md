@@ -1,3 +1,10 @@
+<img width="1920" height="512" alt="imdnotifybanner" src="https://github.com/user-attachments/assets/a97bbfca-c864-4d21-9d99-2c34388db33c" />
+<img width="380" height="90" alt="imdnotifywarn" src="https://github.com/user-attachments/assets/618ace0a-d2a1-4db5-9a22-67cd86d5f707" />
+<img width="380" height="90" alt="imdnotifysuccess" src="https://github.com/user-attachments/assets/0fdb2b80-b857-4c9b-995c-b3272d66e118" />
+<img width="380" height="90" alt="imdnotifyinfo" src="https://github.com/user-attachments/assets/234360fe-0d34-4b68-950e-2acad96b50b1" />
+<img width="380" height="90" alt="imdnotifyerror" src="https://github.com/user-attachments/assets/f8250b77-23cc-4a60-a571-f5c5a7ace912" />
+
+
 # 🔔 imd_notify | Premium Notification System for FiveM
 
 **imd_notify** is a modern, elegant, and fully configurable notification system designed to replace the classic and boring `esx_notify`. Created with a minimalist "SaaS" (Software as a Service) approach, it features smooth animations, a progress bar, and dynamic positioning.
