@@ -5,7 +5,7 @@
 <img width="380" height="90" alt="imdnotifyerror" src="https://github.com/user-attachments/assets/f8250b77-23cc-4a60-a571-f5c5a7ace912" />
 
 
-# 🔔 imd_notify | Premium Notification System for FiveM
+# 🔔 imd_notify | Notification System for FiveM
 
 **imd_notify** is a modern, elegant, and fully configurable notification system designed to replace the classic and boring `esx_notify`. Created with a minimalist "SaaS" (Software as a Service) approach, it features smooth animations, a progress bar, and dynamic positioning.
 
@@ -53,15 +53,18 @@ You have two ways to send notifications using this system:
 ### Option 1: Native ESX Method (Recommended)
 If you already made the change in `es_extended`, you don't need to touch your other scripts. Everything using the base ESX function will adopt the new design:
 
--- Syntax: ESX.ShowNotification(message, type, duration)
-ESX.ShowNotification('You bought a vehicle', 'success', 5000)
-ESX.ShowNotification('Not enough money', 'error', 3000)
+> ESX.ShowNotification(message, type, duration)
+> 
+> ESX.ShowNotification('You bought a vehicle', 'success', 5000)
+>
+> ESX.ShowNotification('Not enough money', 'error', 3000)
 
 ### Option 2: Use the Export Directly
 If you prefer to call the script directly or are using it outside the strict ESX environment:
 
--- Syntax: exports.imd_notify:Notify(message, type, duration)
-exports.imd_notify:Notify('Security alert on the perimeter', 'warning', 6000)
+> exports.imd_notify:Notify(message, type, duration)
+>
+> exports.imd_notify:Notify('Security alert on the perimeter', 'warning', 6000)
 
 ---
 
@@ -94,7 +97,7 @@ If your group on the server is `superadmin`, you can test notifications live usi
 ---
 Created with ☕ by imaxidev.
 
-# 🔔 imd_notify | Sistema de Notificaciones Premium para FiveM
+# 🔔 imd_notify | Sistema de Notificaciones para FiveM
 
 **imd_notify** es un sistema de notificaciones moderno, elegante y completamente configurable diseñado para reemplazar el clásico y aburrido `esx_notify`. Creado con un enfoque minimalista tipo "SaaS" (Software as a Service), cuenta con animaciones fluidas, barra de progreso y posicionamiento dinámico.
 
@@ -142,15 +145,18 @@ Tienes dos formas de enviar notificaciones usando este sistema:
 ### Opción 1: Método Nativo de ESX (Recomendado)
 Si ya hiciste el cambio en `es_extended`, no necesitas tocar tus otros scripts. Todo lo que use la función base de ESX adoptará el nuevo diseño:
 
--- Sintaxis: ESX.ShowNotification(mensaje, tipo, duracion)
-ESX.ShowNotification('Has comprado un vehículo', 'success', 5000)
-ESX.ShowNotification('No tienes suficiente dinero', 'error', 3000)
+> ESX.ShowNotification(mensaje, tipo, duracion)
+>
+> ESX.ShowNotification('Has comprado un vehículo', 'success', 5000)
+> 
+> ESX.ShowNotification('No tienes suficiente dinero', 'error', 3000)
 
 ### Opción 2: Usar el Export Directamente
 Si prefieres llamar al script de forma directa o lo estás usando fuera del entorno estricto de ESX:
 
--- Sintaxis: exports.imd_notify:Notify(mensaje, tipo, duracion)
-exports.imd_notify:Notify('Alerta de seguridad en el perímetro', 'warning', 6000)
+> exports.imd_notify:Notify(mensaje, tipo, duracion)
+>
+> exports.imd_notify:Notify('Alerta de seguridad en el perímetro', 'warning', 6000)
 
 ---
 
